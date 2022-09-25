@@ -1,0 +1,141 @@
+*{
+       padding: 0%;
+       margin: 0%;
+}
+body{
+       background-color: #03071e;
+}
+a{
+       text-decoration-line: none;
+       list-style: none;
+}
+
+/* Navbar */
+
+.nav{
+       display: flex;
+       height: 80px;
+       padding-top: 1%;
+       color: white;
+}
+.nav h3{
+       display: flex;
+       position: absolute;
+       left: 1%;
+}
+.type01{
+       color: lime;
+}
+.nav ul{
+       display: flex;
+       position: absolute;
+       right: 1%;
+}
+.nav ul li{
+       display: flex;
+       width: 115px;
+       height: 30px;
+       justify-content: center;
+       border-radius: 47.1px;
+}
+.nav ul .li:hover{
+       outline-color:lime;
+}
+.nav ul .li .code{
+       visibility: hidden;
+}
+.nav ul .li:hover .code{
+       visibility: visible;
+}
+.nav ul li .seek1{
+       display: flex;
+       width: 110px;
+       height: 100%;
+       border-radius: 47.1px;
+       border-color: orangered;
+}
+.nav ul li .seek1 input{
+       border: none;
+}
+.nav ul li .seek1 .sub1{
+       width: 40px;
+       height: 100%;
+       border-radius: 47.1px;
+       z-index: 100;
+       border: 1px solid lime;
+       background-color: #03071e;
+       transform: translateX(-40px);
+}
+.nav ul li a{
+       color: white;
+}
+
+
+/* Index body */
+
+.isection{
+       display: flex;
+       padding: 1%;
+}
+.lside{
+       display: block;
+       width: 49%;
+       height: auto;
+       border: 1px solid navajowhite;
+}
+.rside{
+       width: 49%;
+       height: auto;
+       border: 1px solid navajowhite;
+}
+.news{
+       display: block;
+       width: 99%;
+       height: 200px;
+       padding: 0.5%;
+       border: 1px solid navajowhite;
+}
+.newsblock{
+       display: flex;
+}
+.lnews{
+       width: 59%;
+       height: 175px;
+       margin: 0.5%;
+       border: 1px solid navajowhite;
+}
+.rnews{
+       width: 39%;
+       height: 175px;
+       margin: 0.5%;
+       border: 1px solid navajowhite;
+}
+.ldev{
+       display: flex;
+       width: 100%;
+       height: 165px;
+       border: 1px solid navajowhite;
+}
+.lrank{
+       display: block;
+       width: 48%;
+       height: 98%;
+       margin: 1%;
+       border: 1px solid navajowhite;
+}
+.lpresent{
+       width: 48%;
+       height: 98%;
+       margin: 1%;
+       border: 1px solid navajowhite;
+}
+
+
+
+
+
+
+
+
+
+
