@@ -1,6 +1,6 @@
 <?php
 
-$dbhost="localhost";
+$dbhost="https://lucent-speculoos-a9c492.netlify.app/";
 $dbuser="root";
 $dbpwd="";
 $dbname="wrc";
